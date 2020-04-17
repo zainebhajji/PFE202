@@ -17,7 +17,7 @@ export default class Pricing extends React.Component {
   }
 
 
-
+  
   addexperience() {
 
     this.setState({
@@ -152,7 +152,7 @@ deleteformation(formation) {
 
                 <Form.Group controlId="formGridState">
                   <Form.Label>Experience </Form.Label>
-                  <Form.Control as="select" value="Choose...">
+                  <Form.Control as="select" >
                     <option>Choose...</option>
                     <option>Débutant</option>
                     <option>0 à 1 an</option>

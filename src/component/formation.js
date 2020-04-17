@@ -18,7 +18,7 @@ export default class Formation extends React.Component {
 
                 <Form.Group controlId="formGridState">
                     <Form.Label>Niveau d'étude</Form.Label>
-                    <Form.Control as="select" value="Choose...">
+                    <Form.Control as="select" >
                         <option>Sélectionnez Niveau d'étude...</option>
                         <option>Diplôme non validé </option>
                         <option>Bac professionnel, BEP, CAP</option>
