@@ -23,10 +23,10 @@ export default function Navmenu() {
             <Navbar.Brand href="/">Navbar</Navbar.Brand>
             <Nav className="mr-auto">
 
-                <Nav.Link href="/">Acceuil</Nav.Link>
+                <Link to="/">Acceuil</Link>
 
-                <Nav.Link href="offre">Offre d'emploi</Nav.Link>
-                <Nav.Link href="entreprise">Entreprise</Nav.Link>
+                <Link to="offre">Offre d'emploi</Link>
+                <Link to="entreprise">Entreprise</Link>
 
             </Nav>
 
